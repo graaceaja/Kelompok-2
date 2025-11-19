@@ -3,5 +3,6 @@ using namespace std;
 
 int main(){
 
-    cout<<"halo kelompok dua"<<endl;
+    cout<<"haloooo kelompok dua"<<endl;
+
 }
