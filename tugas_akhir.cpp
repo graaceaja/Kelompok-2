@@ -38,7 +38,7 @@ string risikoKesehatan(float ip) {
 float prediksiBesok(const vector<DataAir>& data) {
     if (data.size() < 2) return data.back().indeksPencemar;
     float diff = data.back().indeksPencemar - data[data.size()-2].indeksPencemar;
-    return data.back().indeksPencemar + diff * 0.5;  // pergerakan setengah tren
+    return data.back().indeksPencemar + diff * 0.5;
 }
 
 int main() {
@@ -46,7 +46,7 @@ int main() {
     int pilihan;
 
     do {
-        system("cls"); // jika error, ganti "clear" untuk Linux/Mac
+        system("cls"); 
         cout << "============================================\n";
         cout << "   PROGRAM PEMANTAUAN KUALITAS AIR SUNGAI\n";
         cout << "============================================\n";
@@ -143,3 +143,4 @@ int main() {
 
     return 0;
 }
+
